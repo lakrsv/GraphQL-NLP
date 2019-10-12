@@ -167,6 +167,7 @@ gets
 getting
 given
 gives
+give
 go
 goes
 going
@@ -289,7 +290,6 @@ mustn't
 my
 myself
 n
-name
 namely
 nd
 near

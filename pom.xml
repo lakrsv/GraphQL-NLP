@@ -25,7 +25,7 @@
         <opennlp.version>1.9.1</opennlp.version>
         <commons-text.version>1.8</commons-text.version>
         <!-- Query Construction -->
-        <graphql-java.version>2019-09-22T22-20-34-9e83320</graphql-java.version>
+        <graphql-java.version>13.0</graphql-java.version>
         <graphql-java-tools.version>5.2.4</graphql-java-tools.version>
         <kotlin.version>1.3.10</kotlin.version>
         <!-- Logging -->
