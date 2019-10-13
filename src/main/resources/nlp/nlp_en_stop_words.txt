@@ -24,7 +24,6 @@ am
 among
 amongst
 an
-and
 another
 any
 anybody
@@ -330,7 +329,6 @@ one
 ones
 only
 onto
-or
 other
 others
 otherwise
