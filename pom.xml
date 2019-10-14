@@ -24,7 +24,7 @@
         <!-- Natural Language Processing -->
         <opennlp.version>1.9.1</opennlp.version>
         <commons-text.version>1.8</commons-text.version>
-        <!-- Query Construction -->
+        <!-- QueryRequest Construction -->
         <graphql-java.version>13.0</graphql-java.version>
         <graphql-java-tools.version>5.2.4</graphql-java-tools.version>
         <kotlin.version>1.3.10</kotlin.version>
@@ -48,7 +48,7 @@
             <artifactId>commons-text</artifactId>
             <version>${commons-text.version}</version>
         </dependency>
-        <!-- Query Construction -->
+        <!-- QueryRequest Construction -->
         <dependency>
             <groupId>com.graphql-java</groupId>
             <artifactId>graphql-java</artifactId>
