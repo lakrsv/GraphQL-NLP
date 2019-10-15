@@ -23,7 +23,7 @@
     <properties>
         <!-- Natural Language Processing -->
         <opennlp.version>1.9.1</opennlp.version>
-        <commons-text.version>1.8</commons-text.version>
+        <fuzzywuzzy.version>1.2.0</fuzzywuzzy.version>
         <!-- QueryRequest Construction -->
         <graphql-java.version>13.0</graphql-java.version>
         <graphql-java-tools.version>5.2.4</graphql-java-tools.version>
@@ -44,9 +44,9 @@
             <version>${opennlp.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-text</artifactId>
-            <version>${commons-text.version}</version>
+            <groupId>me.xdrop</groupId>
+            <artifactId>fuzzywuzzy</artifactId>
+            <version>${fuzzywuzzy.version}</version>
         </dependency>
         <!-- QueryRequest Construction -->
         <dependency>
