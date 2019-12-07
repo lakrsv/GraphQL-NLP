@@ -28,6 +28,7 @@
         <!-- Testing -->
         <maven-surefire-plugin.version>3.0.0-M4</maven-surefire-plugin.version>
         <maven-failsafe-plugin.version>3.0.0-M4</maven-failsafe-plugin.version>
+        <junit.version>5.6.0-M1</junit.version>
     </properties>
 
     <dependencies>
@@ -79,6 +80,12 @@
             <groupId>org.javatuples</groupId>
             <artifactId>javatuples</artifactId>
             <version>${javatuples.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
