@@ -1,0 +1,9 @@
+Plan of action:
+Remove personal and possessive pronouns.
+Identify NNS as a potential paginated query?? How to do this..
+IN is a good clue for the start of an argument.
+JJ is a potential argument.
+CD is a potential argument (could be a word number, number, or UUID, for example)
+JJR is a potential filtering argument..
+DT is junk
+CC is a coordinating conjunction (I think this is handled nicely without the tag)
