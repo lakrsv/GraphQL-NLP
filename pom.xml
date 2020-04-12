@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.***REMOVED***.live</groupId>
+    <groupId>com.temporalis.io</groupId>
     <artifactId>graphql-nlp</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
@@ -12,13 +12,13 @@
         <!-- Compilation -->
         <java.version>11</java.version>
         <maven-compiler-plugin.version>3.8.0</maven-compiler-plugin.version>
+        <kotlin.version>1.3.10</kotlin.version>
         <!-- Natural Language Processing -->
         <opennlp.version>1.9.1</opennlp.version>
         <fuzzywuzzy.version>1.2.0</fuzzywuzzy.version>
         <!-- QueryRequest Construction -->
         <graphql-java.version>13.0</graphql-java.version>
         <graphql-java-tools.version>5.2.4</graphql-java-tools.version>
-        <kotlin.version>1.3.10</kotlin.version>
         <!-- Logging -->
         <slf4j.version>1.7.28</slf4j.version>
         <!-- Convenience -->
