@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.lakrsv</groupId>
     <artifactId>graphql-nlp</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
 
     <name>GraphQL NLP</name>
     <description>A library for converting language into syntactically valid GraphQL queries</description>
