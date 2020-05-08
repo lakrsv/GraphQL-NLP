@@ -5,15 +5,21 @@ import static java.util.stream.Collectors.toList;
 import static java.util.stream.Collectors.toMap;
 
 import com.github.lakrsv.graphql.nlp.lang.processing.ProcessedChunk;
+import com.github.lakrsv.graphql.nlp.query.QueryGeneratorImpl;
 import com.github.lakrsv.graphql.nlp.query.result.GraphQLSchemaResult;
 import com.github.lakrsv.graphql.nlp.query.result.SchemaResult;
 import com.github.lakrsv.graphql.nlp.schema.argument.DefaultTypeArguments;
 import com.github.lakrsv.graphql.nlp.schema.context.ContextMapper;
+import com.github.lakrsv.graphql.nlp.schema.context.ContextMapperImpl;
+import com.github.lakrsv.graphql.nlp.schema.context.ContextProcessor;
+import com.github.lakrsv.graphql.nlp.schema.context.TypeContext;
+import com.github.lakrsv.graphql.nlp.schema.context.actions.ContextProcessorAction;
 import com.github.lakrsv.graphql.nlp.schema.matchers.ChainedFieldMatcher;
 import com.github.lakrsv.graphql.nlp.schema.matchers.MatchOptionFactory;
 import com.github.lakrsv.graphql.nlp.schema.argument.InputArgument;
 import com.github.lakrsv.graphql.nlp.schema.matchers.MatcherResult;
 import com.github.lakrsv.graphql.nlp.schema.traversal.SchemaMapTransformer;
+import graphql.ExecutionResult;
 import java.util.ArrayDeque;
 import java.util.List;
 import java.util.Map;
@@ -65,7 +71,6 @@ public class SchemaQueryMapper {
       rootSchemaResult.getChildren().add(entryPointResult);
       schemaResults.add(entryPointResult);
 
-      // TODO - Cleanup, there is duplication
       var inputArguments = entryPointResult.getResult().getResult().getInputArguments();
       if (inputArguments.size() > 0) {
         populateArguments(entryPointResult, defaultTypeArguments, inputArguments);

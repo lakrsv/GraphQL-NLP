@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.lakrsv</groupId>
     <artifactId>graphql-nlp</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.3-SNAPSHOT</version>
 
     <name>GraphQL NLP</name>
     <description>A library for converting language into syntactically valid GraphQL queries</description>
@@ -88,11 +88,6 @@
             <artifactId>slf4j-api</artifactId>
             <version>${slf4j.version}</version>
         </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-simple</artifactId>
-            <version>${slf4j.version}</version>
-        </dependency>
         <!-- Convenience -->
         <dependency>
             <groupId>org.projectlombok</groupId>
@@ -120,11 +115,19 @@
             <groupId>org.mockito</groupId>
             <artifactId>mockito-core</artifactId>
             <version>${mockito.version}</version>
+            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-junit-jupiter</artifactId>
             <version>${mockito.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>${slf4j.version}</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 

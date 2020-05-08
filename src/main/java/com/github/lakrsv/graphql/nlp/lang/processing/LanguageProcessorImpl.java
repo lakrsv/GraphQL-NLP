@@ -91,7 +91,6 @@ public class LanguageProcessorImpl implements LanguageProcessor {
     for (var i = chunkSpans.length - 1; i >= 0; --i) {
       var chunkSpan = chunkSpans[i];
 
-      // TODO - The next step is to make chunk processing better
       var nouns = new ArrayList<String>();
       var arguments = new ArrayList<Argument>();
       var adjectives = new ArrayList<Adjective>();
@@ -138,9 +137,6 @@ public class LanguageProcessorImpl implements LanguageProcessor {
         continue;
       }
       processedChunks.add(new ProcessedChunk(chunkStrings[i], nouns, arguments, adjectives));
-      // TODO - Process the chunk strings without stopwords using tags/tokens to identify potential arguments (IN leading into CD and other types..)
-      // TODO - Identify NN as potential argument key/object
-      // TODO - Identify sequence of CD as number word, or number as one CD
     }
     return processedChunks;
   }
