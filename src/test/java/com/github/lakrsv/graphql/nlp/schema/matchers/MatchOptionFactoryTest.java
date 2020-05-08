@@ -1,6 +1,5 @@
 package com.github.lakrsv.graphql.nlp.schema.matchers;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import com.github.lakrsv.graphql.nlp.query.request.MatchOptions;

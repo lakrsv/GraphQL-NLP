@@ -2,9 +2,9 @@ package com.github.lakrsv.graphql.nlp.query.request;
 
 import static java.util.Collections.emptyList;
 
-import com.github.lakrsv.graphql.nlp.schema.matchers.SeekingFieldMatcher;
 import com.github.lakrsv.graphql.nlp.schema.argument.DefaultTypeArguments;
 import com.github.lakrsv.graphql.nlp.schema.matchers.FieldMatcher;
+import com.github.lakrsv.graphql.nlp.schema.matchers.SeekingFieldMatcher;
 import java.lang.reflect.Type;
 import java.util.List;
 import java.util.Map;
